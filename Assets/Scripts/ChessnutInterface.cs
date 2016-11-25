@@ -88,12 +88,12 @@ public class ChessnutInterface : MonoBehaviour {
 
         if (output.Contains("Illegal"))
         {
-            UnityEngine.Debug.LogError("Illegal Move: " + move + "\nOutput: " + output + "\nFlag: " + flag);
+            UnityEngine.Debug.Log("Illegal Move: " + move + "\nOutput: " + output + "\nFlag: " + flag);
             return -1;
         }
         else
         {
-            UnityEngine.Debug.LogError("Valid Move: " + move + "\nOutput: " + output + "\nFlag: " + flag);
+            UnityEngine.Debug.Log("Valid Move: " + move + "\nOutput: " + output + "\nFlag: " + flag);
             return state;
         }
     }

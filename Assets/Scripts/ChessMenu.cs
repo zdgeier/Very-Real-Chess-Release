@@ -6,13 +6,13 @@ using UnityEngine.UI;
 using Valve.VR;
 
 public class ChessMenu : MonoBehaviour {
-
+    ChessGame game;
     bool isMenuActive = false;
     string sideActive = "";
 
 	// Use this for initialization
 	void Start () {
-	    
+        game = GameObject.Find("PlayerRig").GetComponent<ChessGame>();
 	}
 	
 	// Update is called once per frame
@@ -25,6 +25,11 @@ public class ChessMenu : MonoBehaviour {
         }
 	}
 
+    /**
+     * Toggles the menu on each hand. If the menu button is pressed then the menu will
+     * initialize on the hand which the button was pressed. The menu will disappear if 
+     * the menu button is pressed while the menu is active. 
+     */
     void ToggleMenu(string side)
     {
         if (isMenuActive)
@@ -81,8 +86,7 @@ public class ChessMenu : MonoBehaviour {
     {
         bool rightPadPressed = false;
         bool leftPadPressed = false;
-
-        // TODO: Access button on both controllers
+        
         int rightControllerIndex = SteamVR_Controller.GetDeviceIndex(SteamVR_Controller.DeviceRelation.FarthestRight);
         int leftControllerIndex = SteamVR_Controller.GetDeviceIndex(SteamVR_Controller.DeviceRelation.FarthestLeft);
 
@@ -116,7 +120,48 @@ public class ChessMenu : MonoBehaviour {
         GameObject menu = activeController.transform.Find("Menu").gameObject;
 
         menu.transform.Find("Main Menu").gameObject.SetActive(false);
-        menu.transform.Find("New Game Setup").gameObject.SetActive(true); 
+        menu.transform.Find("New Game Setup").gameObject.SetActive(true);
+
+        // Default values
+        transform.FindChild("1").transform.Find("DifficultyText").gameObject.GetComponent<Text>().color = Color.green;
+        transform.FindChild("white").transform.Find("SideText").gameObject.GetComponent<Text>().color = Color.green;
+    }
+
+    public void SetHumanColor(string color)
+    {
+        if (color.Equals("black"))
+        {
+            game.SetHumanColor("black");
+        }
+        else
+        {
+            game.SetHumanColor("white");
+        }
+    }
+
+    public void SetDifficulty(int level)
+    {
+        game.SetDifficulty(level);
+    }
+
+    public void Reset()
+    {
+        game.Reset();
+    }
+
+    public void Quit()
+    {
+        game.Quit();
+    }
+
+    public void Confirm()
+    {
+        game.StartGame();
+    }
+
+    public void Undo()
+    {
+
     }
 
     public void ResetDifficultyColors()

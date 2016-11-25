@@ -36,14 +36,14 @@ public class ChessGame : MonoBehaviour {
 
     private void WhiteMove(string move)
     {
-        UnityEngine.Debug.LogError("White moved: " + move);
+        UnityEngine.Debug.Log("White moved: " + move);
         WhiteDestroyTakenPiece(move); 
         previousMoves.Add(move);
     }
 
     private void BlackMove(string move)
     {
-        UnityEngine.Debug.LogError("Black moved: " + move);
+        UnityEngine.Debug.Log("Black moved: " + move);
         BlackDestroyTakenPiece(move);
         previousMoves.Add(move);
     }
@@ -162,13 +162,13 @@ public class ChessGame : MonoBehaviour {
 
     public void SetDifficulty (int difficulty)
     {
-        UnityEngine.Debug.LogError("Difficulty set to " + difficulty);
+        UnityEngine.Debug.Log("Difficulty set to " + difficulty);
         stockfish.SetSkillLevel(difficulty);
     }
 
     public void SetHumanColor (string humanColor)
     {
-        UnityEngine.Debug.LogError("Human Color set to " + humanColor);
+        UnityEngine.Debug.Log("Human Color set to " + humanColor);
         if(humanColor == "white")
         {
             this.humanColor = humanColor;
@@ -183,7 +183,7 @@ public class ChessGame : MonoBehaviour {
 
     public void SetState(int flag)
     {
-        UnityEngine.Debug.LogError("State: " + flag);
+        UnityEngine.Debug.Log("State: " + flag);
 
         /*  
             Flags: 
@@ -272,7 +272,7 @@ public class ChessGame : MonoBehaviour {
 
     private void CastleState()
     {
-        UnityEngine.Debug.LogError("Castling!");
+        UnityEngine.Debug.Log("Castling!");
 
         if (whiteHasMove)
         {

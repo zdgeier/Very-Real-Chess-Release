@@ -12,7 +12,7 @@ public class ChessHuman : ChessPlayer {
 
         if (Input.GetKeyUp(KeyCode.Space) || HasPressedController())
         {
-            UnityEngine.Debug.LogError("Get move");
+            UnityEngine.Debug.Log("Get move");
             move = GetMove();
         }
 

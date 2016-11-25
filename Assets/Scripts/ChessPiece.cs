@@ -19,18 +19,18 @@ public class ChessPiece : MonoBehaviour {
         // When game begins
         if (currentPosition == null)
         {
-            Debug.LogError(this.name + " starts at " + position.name);
+            Debug.Log(this.name + " starts at " + position.name);
             currentPosition = position;
         }
         // When placed back in original location
         else if (currentPosition == position)
         {
-            Debug.LogError(this.name + " has returned to " + position.name);
+            Debug.Log(this.name + " has returned to " + position.name);
             pendingPosition = null;
         }
         else
         {
-            Debug.LogError(this.name + " has entered " + position.name);
+            Debug.Log(this.name + " has entered " + position.name);
             pendingPosition = position;
         }
     }
@@ -44,10 +44,10 @@ public class ChessPiece : MonoBehaviour {
         }
         else
         {
-            Debug.LogError("current pos: " + currentPosition);
+            Debug.Log("current pos: " + currentPosition);
         }
 
-        Debug.LogError(this.name + " has left " + position.name);
+        Debug.Log(this.name + " has left " + position.name);
     }
 
     public bool HasMoved ()
