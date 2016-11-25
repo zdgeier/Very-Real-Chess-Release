@@ -1,0 +1,188 @@
+Initialize engine version: 5.4.2f2 (b7e030c65c9b)
+GfxDevice: creating device client; threaded=1
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.0]
+    Renderer: NVIDIA GeForce GTX 770 (ID=0x1184)
+    Vendor:   NVIDIA
+    VRAM:     2017 MB
+Begin MonoManager ReloadAssembly
+Platform assembly: C:\Users\zdgei\OneDrive\Documents\MEGA\Chess-VR\VeryRealChess_Data\Managed\UnityEngine.dll (this message is harmless)
+Loading C:\Users\zdgei\OneDrive\Documents\MEGA\Chess-VR\VeryRealChess_Data\Managed\UnityEngine.dll into Unity Child Domain
+Platform assembly: C:\Users\zdgei\OneDrive\Documents\MEGA\Chess-VR\VeryRealChess_Data\Managed\Assembly-CSharp-firstpass.dll (this message is harmless)
+Loading C:\Users\zdgei\OneDrive\Documents\MEGA\Chess-VR\VeryRealChess_Data\Managed\Assembly-CSharp-firstpass.dll into Unity Child Domain
+Platform assembly: C:\Users\zdgei\OneDrive\Documents\MEGA\Chess-VR\VeryRealChess_Data\Managed\Assembly-CSharp.dll (this message is harmless)
+Loading C:\Users\zdgei\OneDrive\Documents\MEGA\Chess-VR\VeryRealChess_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
+Platform assembly: C:\Users\zdgei\OneDrive\Documents\MEGA\Chess-VR\VeryRealChess_Data\Managed\UnityEngine.UI.dll (this message is harmless)
+Loading C:\Users\zdgei\OneDrive\Documents\MEGA\Chess-VR\VeryRealChess_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
+Platform assembly: C:\Users\zdgei\OneDrive\Documents\MEGA\Chess-VR\VeryRealChess_Data\Managed\UnityEngine.Networking.dll (this message is harmless)
+Loading C:\Users\zdgei\OneDrive\Documents\MEGA\Chess-VR\VeryRealChess_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
+- Completed reload, in  0.075 seconds
+Platform assembly: C:\Users\zdgei\OneDrive\Documents\MEGA\Chess-VR\VeryRealChess_Data\Managed\System.Core.dll (this message is harmless)
+Platform assembly: C:\Users\zdgei\OneDrive\Documents\MEGA\Chess-VR\VeryRealChess_Data\Managed\System.dll (this message is harmless)
+<RI> Initializing input.
+<RI> Input initialized.
+desktop: 3840x2160 60Hz; virtual: 3840x2160 at 0,0
+<RI> Initialized touch support.
+OpenVR initialized!
+ 
+(Filename:  Line: 353)
+
+The referenced script on this Behaviour (Game Object '1') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object '1') is missing!
+ 
+(Filename:  Line: 1656)
+
+UnloadTime: 1.602305 ms
+Connected to lighthouse:LHR-5CAD8739
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 42)
+
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.Material:Internal_CreateWithShader (UnityEngine.Material,UnityEngine.Shader)
+  at UnityEngine.Material..ctor (UnityEngine.Shader shader) [0x00000] in <filename unknown>:0 
+  at NewtonVR.Example.NVRExampleTeleporter.Awake () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.Material:Internal_CreateWithShader (UnityEngine.Material,UnityEngine.Shader)
+  at UnityEngine.Material..ctor (UnityEngine.Shader shader) [0x00000] in <filename unknown>:0 
+  at ChessMenuPointer.Awake () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+Setting up 1 worker threads for Enlighten.
+  Thread -> id: 1d78 -> priority: 1 
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.Material:Internal_CreateWithShader (UnityEngine.Material,UnityEngine.Shader)
+  at UnityEngine.Material..ctor (UnityEngine.Shader shader) [0x00000] in <filename unknown>:0 
+  at ChessMenuPointer.Awake () [0x00000] in <filename unknown>:0 
+UnityEngine.GameObject:SetActive(Boolean)
+SteamVR_ControllerManager:SetTrackedDeviceIndex(Int32, UInt32)
+SteamVR_ControllerManager:Refresh()
+SteamVR_ControllerManager:OnDeviceConnected(Object[])
+Event:Send(String, Object[])
+SteamVR:OnNewPoses(Object[])
+Event:Send(String, Object[])
+SteamVR_UpdatePoses:OnPreCull()
+ 
+(Filename:  Line: -1)
+
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.Material:Internal_CreateWithShader (UnityEngine.Material,UnityEngine.Shader)
+  at UnityEngine.Material..ctor (UnityEngine.Shader shader) [0x00000] in <filename unknown>:0 
+  at NewtonVR.Example.NVRExampleTeleporter.Awake () [0x00000] in <filename unknown>:0 
+UnityEngine.GameObject:SetActive(Boolean)
+SteamVR_ControllerManager:SetTrackedDeviceIndex(Int32, UInt32)
+SteamVR_ControllerManager:Refresh()
+SteamVR_ControllerManager:OnDeviceConnected(Object[])
+Event:Send(String, Object[])
+SteamVR:OnNewPoses(Object[])
+Event:Send(String, Object[])
+SteamVR_UpdatePoses:OnPreCull()
+ 
+(Filename:  Line: -1)
+
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object '1') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object '1') is missing!
+ 
+(Filename:  Line: 1656)
+
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.Material:Internal_CreateWithShader (UnityEngine.Material,UnityEngine.Shader)
+  at UnityEngine.Material..ctor (UnityEngine.Shader shader) [0x00000] in <filename unknown>:0 
+  at NewtonVR.Example.NVRExampleTeleporter.Awake () [0x00000] in <filename unknown>:0 
+UnityEngine.Object:Internal_CloneSingle(Object)
+UnityEngine.Object:Instantiate(GameObject)
+NewtonVR.NVRPhysicalController:Initialize(NVRHand, Boolean)
+NewtonVR.<DoInitialize>c__Iterator3:MoveNext()
+UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+ 
+(Filename:  Line: -1)
+
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.Material:Internal_CreateWithShader (UnityEngine.Material,UnityEngine.Shader)
+  at UnityEngine.Material..ctor (UnityEngine.Shader shader) [0x00000] in <filename unknown>:0 
+  at ChessMenuPointer.Awake () [0x00000] in <filename unknown>:0 
+UnityEngine.Object:Internal_CloneSingle(Object)
+UnityEngine.Object:Instantiate(GameObject)
+NewtonVR.NVRPhysicalController:Initialize(NVRHand, Boolean)
+NewtonVR.<DoInitialize>c__Iterator3:MoveNext()
+UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+ 
+(Filename:  Line: -1)
+
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object '1') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object '1') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object '1') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object '1') is missing!
+ 
+(Filename:  Line: 1656)
+
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.Material:Internal_CreateWithShader (UnityEngine.Material,UnityEngine.Shader)
+  at UnityEngine.Material..ctor (UnityEngine.Shader shader) [0x00000] in <filename unknown>:0 
+  at NewtonVR.Example.NVRExampleTeleporter.Awake () [0x00000] in <filename unknown>:0 
+UnityEngine.Object:Internal_CloneSingle(Object)
+UnityEngine.Object:Instantiate(GameObject)
+NewtonVR.NVRPhysicalController:Initialize(NVRHand, Boolean)
+NewtonVR.<DoInitialize>c__Iterator3:MoveNext()
+UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+ 
+(Filename:  Line: -1)
+
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.Material:Internal_CreateWithShader (UnityEngine.Material,UnityEngine.Shader)
+  at UnityEngine.Material..ctor (UnityEngine.Shader shader) [0x00000] in <filename unknown>:0 
+  at ChessMenuPointer.Awake () [0x00000] in <filename unknown>:0 
+UnityEngine.Object:Internal_CloneSingle(Object)
+UnityEngine.Object:Instantiate(GameObject)
+NewtonVR.NVRPhysicalController:Initialize(NVRHand, Boolean)
+NewtonVR.<DoInitialize>c__Iterator3:MoveNext()
+UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+ 
+(Filename:  Line: -1)
+
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object '1') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object '1') is missing!
+ 
+(Filename:  Line: 1656)
+
+OpenVR Shutdown
+ 
+(Filename:  Line: 707)
+

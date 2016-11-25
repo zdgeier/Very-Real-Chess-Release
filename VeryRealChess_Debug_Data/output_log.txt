@@ -1,0 +1,475 @@
+Mono path[0] = 'C:/Users/zdgei/OneDrive/Documents/GitHub/Chess-VR/VeryRealChess_Debug_Data/Managed'
+Mono path[1] = 'C:/Users/zdgei/OneDrive/Documents/GitHub/Chess-VR/VeryRealChess_Debug_Data/Mono'
+Mono config path = 'C:/Users/zdgei/OneDrive/Documents/GitHub/Chess-VR/VeryRealChess_Debug_Data/Mono/etc'
+PlayerConnection initialized from C:/Users/zdgei/OneDrive/Documents/GitHub/Chess-VR/VeryRealChess_Debug_Data (debug = 0)
+PlayerConnection initialized network socket : 0.0.0.0 55028
+Multi-casting "[IP] 172.24.5.97 [Port] 55028 [Flags] 3 [Guid] 1686363570 [EditorId] 1799860685 [Version] 1048832 [Id] WindowsPlayer(DESKTOP-V3ODIVA) [Debug] 1" to [225.0.0.222:54997]...
+Waiting for connection from host on [172.24.5.97:55028]...
+PlayerConnection accepted from [172.24.5.97] handle:0x25c
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,defer=y,address=0.0.0.0:56570
+PlayerConnection already initialized - listening to [172.24.5.97:55028]
+Initialize engine version: 5.4.0f3 (a6d8d714de6f)
+GfxDevice: creating device client; threaded=1
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.0]
+    Renderer: NVIDIA GeForce GTX 770 (ID=0x1184)
+    Vendor:   NVIDIA
+    VRAM:     2017 MB
+Begin MonoManager ReloadAssembly
+Platform assembly: C:\Users\zdgei\OneDrive\Documents\GitHub\Chess-VR\VeryRealChess_Debug_Data\Managed\UnityEngine.dll (this message is harmless)
+Loading C:\Users\zdgei\OneDrive\Documents\GitHub\Chess-VR\VeryRealChess_Debug_Data\Managed\UnityEngine.dll into Unity Child Domain
+Platform assembly: C:\Users\zdgei\OneDrive\Documents\GitHub\Chess-VR\VeryRealChess_Debug_Data\Managed\Assembly-CSharp-firstpass.dll (this message is harmless)
+Loading C:\Users\zdgei\OneDrive\Documents\GitHub\Chess-VR\VeryRealChess_Debug_Data\Managed\Assembly-CSharp-firstpass.dll into Unity Child Domain
+Platform assembly: C:\Users\zdgei\OneDrive\Documents\GitHub\Chess-VR\VeryRealChess_Debug_Data\Managed\Assembly-CSharp.dll (this message is harmless)
+Loading C:\Users\zdgei\OneDrive\Documents\GitHub\Chess-VR\VeryRealChess_Debug_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
+Platform assembly: C:\Users\zdgei\OneDrive\Documents\GitHub\Chess-VR\VeryRealChess_Debug_Data\Managed\UnityEngine.UI.dll (this message is harmless)
+Loading C:\Users\zdgei\OneDrive\Documents\GitHub\Chess-VR\VeryRealChess_Debug_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
+Platform assembly: C:\Users\zdgei\OneDrive\Documents\GitHub\Chess-VR\VeryRealChess_Debug_Data\Managed\UnityEngine.Networking.dll (this message is harmless)
+Loading C:\Users\zdgei\OneDrive\Documents\GitHub\Chess-VR\VeryRealChess_Debug_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
+- Completed reload, in  0.263 seconds
+Platform assembly: C:\Users\zdgei\OneDrive\Documents\GitHub\Chess-VR\VeryRealChess_Debug_Data\Managed\System.Core.dll (this message is harmless)
+Platform assembly: C:\Users\zdgei\OneDrive\Documents\GitHub\Chess-VR\VeryRealChess_Debug_Data\Managed\System.dll (this message is harmless)
+<RI> Initializing input.
+<RI> Input initialized.
+desktop: 3840x2160 60Hz; virtual: 3840x2160 at 0,0
+<RI> Initialized touch support.
+VR: OpenVR Error! OpenVR failed initialization with error code Unknown error (126): "Unknown error (126)"!
+ 
+(Filename: C:/buildslave/unity/build/Runtime/VR/openvr/OpenVR.cpp Line: 286)
+
+VR: OpenVR Error! OpenVR failed initialization with error code Unknown error (126): "Unknown error (126)"!
+ 
+(Filename: C:/buildslave/unity/build/Runtime/VR/openvr/OpenVR.cpp Line: 286)
+
+UnloadTime: 7.559934 ms
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.Material:Internal_CreateWithShader (UnityEngine.Material,UnityEngine.Shader)
+  at UnityEngine.Material..ctor (UnityEngine.Shader shader) [0x00006] in C:\buildslave\unity\build\artifacts\generated\common\runtime\ShaderBindings.gen.cs:222 
+  at NewtonVR.Example.NVRExampleTeleporter.Awake () [0x00050] in C:\Users\zdgei\OneDrive\Documents\GitHub\Chess-VR\Assets\NewtonVR\Assets\NewtonVR\Example\NVRExampleTeleporter.cs:28 
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/ShaderBindings.gen.cs Line: 222)
+
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.Material:Internal_CreateWithShader (UnityEngine.Material,UnityEngine.Shader)
+  at UnityEngine.Material..ctor (UnityEngine.Shader shader) [0x00006] in C:\buildslave\unity\build\artifacts\generated\common\runtime\ShaderBindings.gen.cs:222 
+  at ChessMenuPointer.Awake () [0x00050] in C:\Users\zdgei\OneDrive\Documents\GitHub\Chess-VR\Assets\Scripts\ChessMenuPointer.cs:28 
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/ShaderBindings.gen.cs Line: 222)
+
+Difficulty set to 1
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+ChessGame:SetDifficulty(Int32) (at C:\Users\zdgei\OneDrive\Documents\GitHub\Chess-VR\Assets\Scripts\ChessGame.cs:166)
+ChessTester:Update() (at C:\Users\zdgei\OneDrive\Documents\GitHub\Chess-VR\Assets\Scripts\ChessTester.cs:28)
+ 
+(Filename: C:/Users/zdgei/OneDrive/Documents/GitHub/Chess-VR/Assets/Scripts/ChessGame.cs Line: 166)
+
+Human Color set to black
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+ChessGame:SetHumanColor(String) (at C:\Users\zdgei\OneDrive\Documents\GitHub\Chess-VR\Assets\Scripts\ChessGame.cs:172)
+ChessTester:Update() (at C:\Users\zdgei\OneDrive\Documents\GitHub\Chess-VR\Assets\Scripts\ChessTester.cs:29)
+ 
+(Filename: C:/Users/zdgei/OneDrive/Documents/GitHub/Chess-VR/Assets/Scripts/ChessGame.cs Line: 172)
+
+Setting up 1 worker threads for Enlighten.
+  Thread -> id: 1bd4 -> priority: 1 
+Pawn h7 starts at h7
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+ChessPiece:Entered(ChessPosition) (at C:\Users\zdgei\OneDrive\Documents\GitHub\Chess-VR\Assets\Scripts\ChessPiece.cs:22)
+ChessPosition:OnTriggerEnter(Collider) (at C:\Users\zdgei\OneDrive\Documents\GitHub\Chess-VR\Assets\Scripts\ChessPosition.cs:20)
+ 
+(Filename: C:/Users/zdgei/OneDrive/Documents/GitHub/Chess-VR/Assets/Scripts/ChessPiece.cs Line: 22)
+
+Rook h8 starts at h8
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+ChessPiece:Entered(ChessPosition) (at C:\Users\zdgei\OneDrive\Documents\GitHub\Chess-VR\Assets\Scripts\ChessPiece.cs:22)
+ChessPosition:OnTriggerEnter(Collider) (at C:\Users\zdgei\OneDrive\Documents\GitHub\Chess-VR\Assets\Scripts\ChessPosition.cs:20)
+ 
+(Filename: C:/Users/zdgei/OneDrive/Documents/GitHub/Chess-VR/Assets/Scripts/ChessPiece.cs Line: 22)
+
+Pawn h2 starts at h2
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+ChessPiece:Entered(ChessPosition) (at C:\Users\zdgei\OneDrive\Documents\GitHub\Chess-VR\Assets\Scripts\ChessPiece.cs:22)
+ChessPosition:OnTriggerEnter(Collider) (at C:\Users\zdgei\OneDrive\Documents\GitHub\Chess-VR\Assets\Scripts\ChessPosition.cs:20)
+ 
+(Filename: C:/Users/zdgei/OneDrive/Documents/GitHub/Chess-VR/Assets/Scripts/ChessPiece.cs Line: 22)
+
+Rook h1 starts at h1
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+ChessPiece:Entered(ChessPosition) (at C:\Users\zdgei\OneDrive\Documents\GitHub\Chess-VR\Assets\Scripts\ChessPiece.cs:22)
+ChessPosition:OnTriggerEnter(Collider) (at C:\Users\zdgei\OneDrive\Documents\GitHub\Chess-VR\Assets\Scripts\ChessPosition.cs:20)
+ 
+(Filename: C:/Users/zdgei/OneDrive/Documents/GitHub/Chess-VR/Assets/Scripts/ChessPiece.cs Line: 22)
+
+Knight g8 starts at g8
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+ChessPiece:Entered(ChessPosition) (at C:\Users\zdgei\OneDrive\Documents\GitHub\Chess-VR\Assets\Scripts\ChessPiece.cs:22)
+ChessPosition:OnTriggerEnter(Collider) (at C:\Users\zdgei\OneDrive\Documents\GitHub\Chess-VR\Assets\Scripts\ChessPosition.cs:20)
+ 
+(Filename: C:/Users/zdgei/OneDrive/Documents/GitHub/Chess-VR/Assets/Scripts/ChessPiece.cs Line: 22)
+
+Pawn g7 starts at g7
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+ChessPiece:Entered(ChessPosition) (at C:\Users\zdgei\OneDrive\Documents\GitHub\Chess-VR\Assets\Scripts\ChessPiece.cs:22)
+ChessPosition:OnTriggerEnter(Collider) (at C:\Users\zdgei\OneDrive\Documents\GitHub\Chess-VR\Assets\Scripts\ChessPosition.cs:20)
+ 
+(Filename: C:/Users/zdgei/OneDrive/Documents/GitHub/Chess-VR/Assets/Scripts/ChessPiece.cs Line: 22)
+
+Pawn g2 starts at g2
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+ChessPiece:Entered(ChessPosition) (at C:\Users\zdgei\OneDrive\Documents\GitHub\Chess-VR\Assets\Scripts\ChessPiece.cs:22)
+ChessPosition:OnTriggerEnter(Collider) (at C:\Users\zdgei\OneDrive\Documents\GitHub\Chess-VR\Assets\Scripts\ChessPosition.cs:20)
+ 
+(Filename: C:/Users/zdgei/OneDrive/Documents/GitHub/Chess-VR/Assets/Scripts/ChessPiece.cs Line: 22)
+
+Knight g1 starts at g1
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+ChessPiece:Entered(ChessPosition) (at C:\Users\zdgei\OneDrive\Documents\GitHub\Chess-VR\Assets\Scripts\ChessPiece.cs:22)
+ChessPosition:OnTriggerEnter(Collider) (at C:\Users\zdgei\OneDrive\Documents\GitHub\Chess-VR\Assets\Scripts\ChessPosition.cs:20)
+ 
+(Filename: C:/Users/zdgei/OneDrive/Documents/GitHub/Chess-VR/Assets/Scripts/ChessPiece.cs Line: 22)
+
+Bishop f8 starts at f8
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+ChessPiece:Entered(ChessPosition) (at C:\Users\zdgei\OneDrive\Documents\GitHub\Chess-VR\Assets\Scripts\ChessPiece.cs:22)
+ChessPosition:OnTriggerEnter(Collider) (at C:\Users\zdgei\OneDrive\Documents\GitHub\Chess-VR\Assets\Scripts\ChessPosition.cs:20)
+ 
+(Filename: C:/Users/zdgei/OneDrive/Documents/GitHub/Chess-VR/Assets/Scripts/ChessPiece.cs Line: 22)
+
+Pawn f7 starts at f7
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+ChessPiece:Entered(ChessPosition) (at C:\Users\zdgei\OneDrive\Documents\GitHub\Chess-VR\Assets\Scripts\ChessPiece.cs:22)
+ChessPosition:OnTriggerEnter(Collider) (at C:\Users\zdgei\OneDrive\Documents\GitHub\Chess-VR\Assets\Scripts\ChessPosition.cs:20)
+ 
+(Filename: C:/Users/zdgei/OneDrive/Documents/GitHub/Chess-VR/Assets/Scripts/ChessPiece.cs Line: 22)
+
+Pawn f2 starts at f2
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+ChessPiece:Entered(ChessPosition) (at C:\Users\zdgei\OneDrive\Documents\GitHub\Chess-VR\Assets\Scripts\ChessPiece.cs:22)
+ChessPosition:OnTriggerEnter(Collider) (at C:\Users\zdgei\OneDrive\Documents\GitHub\Chess-VR\Assets\Scripts\ChessPosition.cs:20)
+ 
+(Filename: C:/Users/zdgei/OneDrive/Documents/GitHub/Chess-VR/Assets/Scripts/ChessPiece.cs Line: 22)
+
+Bishop f1 starts at f1
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+ChessPiece:Entered(ChessPosition) (at C:\Users\zdgei\OneDrive\Documents\GitHub\Chess-VR\Assets\Scripts\ChessPiece.cs:22)
+ChessPosition:OnTriggerEnter(Collider) (at C:\Users\zdgei\OneDrive\Documents\GitHub\Chess-VR\Assets\Scripts\ChessPosition.cs:20)
+ 
+(Filename: C:/Users/zdgei/OneDrive/Documents/GitHub/Chess-VR/Assets/Scripts/ChessPiece.cs Line: 22)
+
+King e8 starts at e8
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+ChessPiece:Entered(ChessPosition) (at C:\Users\zdgei\OneDrive\Documents\GitHub\Chess-VR\Assets\Scripts\ChessPiece.cs:22)
+ChessPosition:OnTriggerEnter(Collider) (at C:\Users\zdgei\OneDrive\Documents\GitHub\Chess-VR\Assets\Scripts\ChessPosition.cs:20)
+ 
+(Filename: C:/Users/zdgei/OneDrive/Documents/GitHub/Chess-VR/Assets/Scripts/ChessPiece.cs Line: 22)
+
+Pawn e7 starts at e7
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+ChessPiece:Entered(ChessPosition) (at C:\Users\zdgei\OneDrive\Documents\GitHub\Chess-VR\Assets\Scripts\ChessPiece.cs:22)
+ChessPosition:OnTriggerEnter(Collider) (at C:\Users\zdgei\OneDrive\Documents\GitHub\Chess-VR\Assets\Scripts\ChessPosition.cs:20)
+ 
+(Filename: C:/Users/zdgei/OneDrive/Documents/GitHub/Chess-VR/Assets/Scripts/ChessPiece.cs Line: 22)
+
+King e1 starts at e1
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+ChessPiece:Entered(ChessPosition) (at C:\Users\zdgei\OneDrive\Documents\GitHub\Chess-VR\Assets\Scripts\ChessPiece.cs:22)
+ChessPosition:OnTriggerEnter(Collider) (at C:\Users\zdgei\OneDrive\Documents\GitHub\Chess-VR\Assets\Scripts\ChessPosition.cs:20)
+ 
+(Filename: C:/Users/zdgei/OneDrive/Documents/GitHub/Chess-VR/Assets/Scripts/ChessPiece.cs Line: 22)
+
+Pawn e2 starts at e2
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+ChessPiece:Entered(ChessPosition) (at C:\Users\zdgei\OneDrive\Documents\GitHub\Chess-VR\Assets\Scripts\ChessPiece.cs:22)
+ChessPosition:OnTriggerEnter(Collider) (at C:\Users\zdgei\OneDrive\Documents\GitHub\Chess-VR\Assets\Scripts\ChessPosition.cs:20)
+ 
+(Filename: C:/Users/zdgei/OneDrive/Documents/GitHub/Chess-VR/Assets/Scripts/ChessPiece.cs Line: 22)
+
+Pawn d7 starts at d7
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+ChessPiece:Entered(ChessPosition) (at C:\Users\zdgei\OneDrive\Documents\GitHub\Chess-VR\Assets\Scripts\ChessPiece.cs:22)
+ChessPosition:OnTriggerEnter(Collider) (at C:\Users\zdgei\OneDrive\Documents\GitHub\Chess-VR\Assets\Scripts\ChessPosition.cs:20)
+ 
+(Filename: C:/Users/zdgei/OneDrive/Documents/GitHub/Chess-VR/Assets/Scripts/ChessPiece.cs Line: 22)
+
+Queen d8 starts at d8
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+ChessPiece:Entered(ChessPosition) (at C:\Users\zdgei\OneDrive\Documents\GitHub\Chess-VR\Assets\Scripts\ChessPiece.cs:22)
+ChessPosition:OnTriggerEnter(Collider) (at C:\Users\zdgei\OneDrive\Documents\GitHub\Chess-VR\Assets\Scripts\ChessPosition.cs:20)
+ 
+(Filename: C:/Users/zdgei/OneDrive/Documents/GitHub/Chess-VR/Assets/Scripts/ChessPiece.cs Line: 22)
+
+Pawn d2 starts at d2
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+ChessPiece:Entered(ChessPosition) (at C:\Users\zdgei\OneDrive\Documents\GitHub\Chess-VR\Assets\Scripts\ChessPiece.cs:22)
+ChessPosition:OnTriggerEnter(Collider) (at C:\Users\zdgei\OneDrive\Documents\GitHub\Chess-VR\Assets\Scripts\ChessPosition.cs:20)
+ 
+(Filename: C:/Users/zdgei/OneDrive/Documents/GitHub/Chess-VR/Assets/Scripts/ChessPiece.cs Line: 22)
+
+Queen d1 starts at d1
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+ChessPiece:Entered(ChessPosition) (at C:\Users\zdgei\OneDrive\Documents\GitHub\Chess-VR\Assets\Scripts\ChessPiece.cs:22)
+ChessPosition:OnTriggerEnter(Collider) (at C:\Users\zdgei\OneDrive\Documents\GitHub\Chess-VR\Assets\Scripts\ChessPosition.cs:20)
+ 
+(Filename: C:/Users/zdgei/OneDrive/Documents/GitHub/Chess-VR/Assets/Scripts/ChessPiece.cs Line: 22)
+
+Pawn c7 starts at c7
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+ChessPiece:Entered(ChessPosition) (at C:\Users\zdgei\OneDrive\Documents\GitHub\Chess-VR\Assets\Scripts\ChessPiece.cs:22)
+ChessPosition:OnTriggerEnter(Collider) (at C:\Users\zdgei\OneDrive\Documents\GitHub\Chess-VR\Assets\Scripts\ChessPosition.cs:20)
+ 
+(Filename: C:/Users/zdgei/OneDrive/Documents/GitHub/Chess-VR/Assets/Scripts/ChessPiece.cs Line: 22)
+
+Bishop c3 starts at c8
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+ChessPiece:Entered(ChessPosition) (at C:\Users\zdgei\OneDrive\Documents\GitHub\Chess-VR\Assets\Scripts\ChessPiece.cs:22)
+ChessPosition:OnTriggerEnter(Collider) (at C:\Users\zdgei\OneDrive\Documents\GitHub\Chess-VR\Assets\Scripts\ChessPosition.cs:20)
+ 
+(Filename: C:/Users/zdgei/OneDrive/Documents/GitHub/Chess-VR/Assets/Scripts/ChessPiece.cs Line: 22)
+
+Pawn c2 starts at c2
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+ChessPiece:Entered(ChessPosition) (at C:\Users\zdgei\OneDrive\Documents\GitHub\Chess-VR\Assets\Scripts\ChessPiece.cs:22)
+ChessPosition:OnTriggerEnter(Collider) (at C:\Users\zdgei\OneDrive\Documents\GitHub\Chess-VR\Assets\Scripts\ChessPosition.cs:20)
+ 
+(Filename: C:/Users/zdgei/OneDrive/Documents/GitHub/Chess-VR/Assets/Scripts/ChessPiece.cs Line: 22)
+
+Bishop c1 starts at c1
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+ChessPiece:Entered(ChessPosition) (at C:\Users\zdgei\OneDrive\Documents\GitHub\Chess-VR\Assets\Scripts\ChessPiece.cs:22)
+ChessPosition:OnTriggerEnter(Collider) (at C:\Users\zdgei\OneDrive\Documents\GitHub\Chess-VR\Assets\Scripts\ChessPosition.cs:20)
+ 
+(Filename: C:/Users/zdgei/OneDrive/Documents/GitHub/Chess-VR/Assets/Scripts/ChessPiece.cs Line: 22)
+
+Pawn b7 starts at b7
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+ChessPiece:Entered(ChessPosition) (at C:\Users\zdgei\OneDrive\Documents\GitHub\Chess-VR\Assets\Scripts\ChessPiece.cs:22)
+ChessPosition:OnTriggerEnter(Collider) (at C:\Users\zdgei\OneDrive\Documents\GitHub\Chess-VR\Assets\Scripts\ChessPosition.cs:20)
+ 
+(Filename: C:/Users/zdgei/OneDrive/Documents/GitHub/Chess-VR/Assets/Scripts/ChessPiece.cs Line: 22)
+
+Knight b8 starts at b8
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+ChessPiece:Entered(ChessPosition) (at C:\Users\zdgei\OneDrive\Documents\GitHub\Chess-VR\Assets\Scripts\ChessPiece.cs:22)
+ChessPosition:OnTriggerEnter(Collider) (at C:\Users\zdgei\OneDrive\Documents\GitHub\Chess-VR\Assets\Scripts\ChessPosition.cs:20)
+ 
+(Filename: C:/Users/zdgei/OneDrive/Documents/GitHub/Chess-VR/Assets/Scripts/ChessPiece.cs Line: 22)
+
+Knight b1 starts at b1
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+ChessPiece:Entered(ChessPosition) (at C:\Users\zdgei\OneDrive\Documents\GitHub\Chess-VR\Assets\Scripts\ChessPiece.cs:22)
+ChessPosition:OnTriggerEnter(Collider) (at C:\Users\zdgei\OneDrive\Documents\GitHub\Chess-VR\Assets\Scripts\ChessPosition.cs:20)
+ 
+(Filename: C:/Users/zdgei/OneDrive/Documents/GitHub/Chess-VR/Assets/Scripts/ChessPiece.cs Line: 22)
+
+Pawn b2 starts at b2
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+ChessPiece:Entered(ChessPosition) (at C:\Users\zdgei\OneDrive\Documents\GitHub\Chess-VR\Assets\Scripts\ChessPiece.cs:22)
+ChessPosition:OnTriggerEnter(Collider) (at C:\Users\zdgei\OneDrive\Documents\GitHub\Chess-VR\Assets\Scripts\ChessPosition.cs:20)
+ 
+(Filename: C:/Users/zdgei/OneDrive/Documents/GitHub/Chess-VR/Assets/Scripts/ChessPiece.cs Line: 22)
+
+Pawn a7 starts at a7
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+ChessPiece:Entered(ChessPosition) (at C:\Users\zdgei\OneDrive\Documents\GitHub\Chess-VR\Assets\Scripts\ChessPiece.cs:22)
+ChessPosition:OnTriggerEnter(Collider) (at C:\Users\zdgei\OneDrive\Documents\GitHub\Chess-VR\Assets\Scripts\ChessPosition.cs:20)
+ 
+(Filename: C:/Users/zdgei/OneDrive/Documents/GitHub/Chess-VR/Assets/Scripts/ChessPiece.cs Line: 22)
+
+Rook a8 starts at a8
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+ChessPiece:Entered(ChessPosition) (at C:\Users\zdgei\OneDrive\Documents\GitHub\Chess-VR\Assets\Scripts\ChessPiece.cs:22)
+ChessPosition:OnTriggerEnter(Collider) (at C:\Users\zdgei\OneDrive\Documents\GitHub\Chess-VR\Assets\Scripts\ChessPosition.cs:20)
+ 
+(Filename: C:/Users/zdgei/OneDrive/Documents/GitHub/Chess-VR/Assets/Scripts/ChessPiece.cs Line: 22)
+
+Pawn a2 starts at a2
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+ChessPiece:Entered(ChessPosition) (at C:\Users\zdgei\OneDrive\Documents\GitHub\Chess-VR\Assets\Scripts\ChessPiece.cs:22)
+ChessPosition:OnTriggerEnter(Collider) (at C:\Users\zdgei\OneDrive\Documents\GitHub\Chess-VR\Assets\Scripts\ChessPosition.cs:20)
+ 
+(Filename: C:/Users/zdgei/OneDrive/Documents/GitHub/Chess-VR/Assets/Scripts/ChessPiece.cs Line: 22)
+
+Rook a1 starts at a1
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+ChessPiece:Entered(ChessPosition) (at C:\Users\zdgei\OneDrive\Documents\GitHub\Chess-VR\Assets\Scripts\ChessPiece.cs:22)
+ChessPosition:OnTriggerEnter(Collider) (at C:\Users\zdgei\OneDrive\Documents\GitHub\Chess-VR\Assets\Scripts\ChessPosition.cs:20)
+ 
+(Filename: C:/Users/zdgei/OneDrive/Documents/GitHub/Chess-VR/Assets/Scripts/ChessPiece.cs Line: 22)
+
+Valid Move: e2e4
+Output: moved 0
+Flag: 0
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+ChessnutInterface:IsValidMove(String) (at C:\Users\zdgei\OneDrive\Documents\GitHub\Chess-VR\Assets\Scripts\ChessnutInterface.cs:94)
+ChessAI:Poll(List`1) (at C:\Users\zdgei\OneDrive\Documents\GitHub\Chess-VR\Assets\Scripts\ChessAI.cs:35)
+ChessGame:Update() (at C:\Users\zdgei\OneDrive\Documents\GitHub\Chess-VR\Assets\Scripts\ChessGame.cs:371)
+ 
+(Filename: C:/Users/zdgei/OneDrive/Documents/GitHub/Chess-VR/Assets/Scripts/ChessnutInterface.cs Line: 94)
+
+State: 0
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+ChessGame:SetState(Int32) (at C:\Users\zdgei\OneDrive\Documents\GitHub\Chess-VR\Assets\Scripts\ChessGame.cs:187)
+ChessAI:Poll(List`1) (at C:\Users\zdgei\OneDrive\Documents\GitHub\Chess-VR\Assets\Scripts\ChessAI.cs:39)
+ChessGame:Update() (at C:\Users\zdgei\OneDrive\Documents\GitHub\Chess-VR\Assets\Scripts\ChessGame.cs:371)
+ 
+(Filename: C:/Users/zdgei/OneDrive/Documents/GitHub/Chess-VR/Assets/Scripts/ChessGame.cs Line: 187)
+
+White moved: e2e4
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+ChessGame:WhiteMove(String) (at C:\Users\zdgei\OneDrive\Documents\GitHub\Chess-VR\Assets\Scripts\ChessGame.cs:39)
+ChessGame:Update() (at C:\Users\zdgei\OneDrive\Documents\GitHub\Chess-VR\Assets\Scripts\ChessGame.cs:375)
+ 
+(Filename: C:/Users/zdgei/OneDrive/Documents/GitHub/Chess-VR/Assets/Scripts/ChessGame.cs Line: 39)
+
+State: 0
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+ChessGame:SetState(Int32) (at C:\Users\zdgei\OneDrive\Documents\GitHub\Chess-VR\Assets\Scripts\ChessGame.cs:187)
+ChessGame:Update() (at C:\Users\zdgei\OneDrive\Documents\GitHub\Chess-VR\Assets\Scripts\ChessGame.cs:380)
+ 
+(Filename: C:/Users/zdgei/OneDrive/Documents/GitHub/Chess-VR/Assets/Scripts/ChessGame.cs Line: 187)
+
+current pos: e2 (ChessPosition)
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+ChessPiece:Left(ChessPosition) (at C:\Users\zdgei\OneDrive\Documents\GitHub\Chess-VR\Assets\Scripts\ChessPiece.cs:47)
+ChessPosition:OnTriggerExit(Collider) (at C:\Users\zdgei\OneDrive\Documents\GitHub\Chess-VR\Assets\Scripts\ChessPosition.cs:32)
+ 
+(Filename: C:/Users/zdgei/OneDrive/Documents/GitHub/Chess-VR/Assets/Scripts/ChessPiece.cs Line: 47)
+
+Pawn e2 has left e2
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+ChessPiece:Left(ChessPosition) (at C:\Users\zdgei\OneDrive\Documents\GitHub\Chess-VR\Assets\Scripts\ChessPiece.cs:50)
+ChessPosition:OnTriggerExit(Collider) (at C:\Users\zdgei\OneDrive\Documents\GitHub\Chess-VR\Assets\Scripts\ChessPosition.cs:32)
+ 
+(Filename: C:/Users/zdgei/OneDrive/Documents/GitHub/Chess-VR/Assets/Scripts/ChessPiece.cs Line: 50)
+
+Pawn e2 has entered e4
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+ChessPiece:Entered(ChessPosition) (at C:\Users\zdgei\OneDrive\Documents\GitHub\Chess-VR\Assets\Scripts\ChessPiece.cs:33)
+ChessPosition:OnTriggerEnter(Collider) (at C:\Users\zdgei\OneDrive\Documents\GitHub\Chess-VR\Assets\Scripts\ChessPosition.cs:20)
+ 
+(Filename: C:/Users/zdgei/OneDrive/Documents/GitHub/Chess-VR/Assets/Scripts/ChessPiece.cs Line: 33)
+
+Waiting for finish
