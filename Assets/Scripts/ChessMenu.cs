@@ -12,7 +12,7 @@ public class ChessMenu : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
-        game = GameObject.Find("PlayerRig").GetComponent<ChessGame>();
+        
 	}
 	
 	// Update is called once per frame
@@ -32,6 +32,8 @@ public class ChessMenu : MonoBehaviour {
      */
     void ToggleMenu(string side)
     {
+        game = GameObject.Find("Chess_set").GetComponent<ChessGame>();
+
         if (isMenuActive)
         {
             GameObject leftController = this.transform.Find("Controller (left)").gameObject;
@@ -120,11 +122,13 @@ public class ChessMenu : MonoBehaviour {
         GameObject menu = activeController.transform.Find("Menu").gameObject;
 
         menu.transform.Find("Main Menu").gameObject.SetActive(false);
-        menu.transform.Find("New Game Setup").gameObject.SetActive(true);
+        menu.transform.Find("Setup Menu").gameObject.SetActive(true);
 
         // Default values
-        transform.FindChild("1").transform.Find("DifficultyText").gameObject.GetComponent<Text>().color = Color.green;
-        transform.FindChild("white").transform.Find("SideText").gameObject.GetComponent<Text>().color = Color.green;
+        ResetDifficultyColors();
+        menu.transform.Find("Setup Menu/Levels/1").transform.Find("DifficultyText").gameObject.GetComponent<Text>().color = Color.green;
+        ResetSideColors();
+        menu.transform.Find("Setup Menu/Sides/White").transform.Find("SideText").gameObject.GetComponent<Text>().color = Color.green;
     }
 
     public void SetHumanColor(string color)
@@ -157,18 +161,24 @@ public class ChessMenu : MonoBehaviour {
     public void Confirm()
     {
         game.StartGame();
+
+        GameObject activeController = this.transform.Find("Controller (" + sideActive + ")").gameObject;
+        GameObject menu = activeController.transform.Find("Menu").gameObject;
+
+        menu.transform.Find("Setup Menu").gameObject.SetActive(false);
+        menu.transform.Find("Playing Menu").gameObject.SetActive(true);
     }
 
     public void Undo()
     {
-
+        game.Undo();
     }
 
     public void ResetDifficultyColors()
     {
         GameObject activeController = this.transform.Find("Controller (" + sideActive + ")").gameObject;
         GameObject menu = activeController.transform.Find("Menu").gameObject;
-        GameObject levels = menu.transform.Find("New Game Setup").gameObject.transform.Find("Levels").gameObject;
+        GameObject levels = menu.transform.Find("Setup Menu").gameObject.transform.Find("Levels").gameObject;
 
         foreach (Transform child in levels.transform)
         {
@@ -180,7 +190,7 @@ public class ChessMenu : MonoBehaviour {
     {
         GameObject activeController = this.transform.Find("Controller (" + sideActive + ")").gameObject;
         GameObject menu = activeController.transform.Find("Menu").gameObject;
-        GameObject sides = menu.transform.Find("New Game Setup").gameObject.transform.Find("Sides").gameObject;
+        GameObject sides = menu.transform.Find("Setup Menu").gameObject.transform.Find("Sides").gameObject;
 
         foreach (Transform child in sides.transform)
         {

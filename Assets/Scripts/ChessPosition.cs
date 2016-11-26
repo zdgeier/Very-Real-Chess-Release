@@ -4,6 +4,7 @@ using System.Collections.Generic;
 
 public class ChessPosition : MonoBehaviour {
     public List<ChessPiece> overlappingPieces;
+    public List<ChessPiece> takenPieces;
 
     // Use this for initialization
     void Start()
@@ -38,13 +39,32 @@ public class ChessPosition : MonoBehaviour {
     {
         try
         {
-            Destroy(overlappingPieces[0].gameObject);
+            // Instead of deleting, just hide the piece taken
+            overlappingPieces[0].gameObject.SetActive(false);
+            takenPieces.Add(overlappingPieces.ToArray()[0]);
             overlappingPieces.RemoveAt(0);
             overlappingPieces.TrimExcess();
+
         }
         catch (MissingReferenceException e)
         {
             // Do nothing i cant fix this
+        }
+    }
+
+    public void UndoPieceTaken()
+    {
+        if (takenPieces.ToArray().Length > 0)
+        {
+            ChessPiece takenPiece = takenPieces.ToArray()[0];
+            takenPiece.gameObject.SetActive(true);
+            overlappingPieces.Add(takenPiece);
+            takenPieces.RemoveAt(0);
+            takenPieces.TrimExcess();
+        }
+        else
+        {
+            // No piece taken
         }
     }
 

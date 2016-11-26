@@ -223,6 +223,24 @@ public class ChessGame : MonoBehaviour {
         }
     }
 
+    public void Undo()
+    {
+        string[] previousMovesArray = previousMoves.ToArray();
+        string lastMove = previousMovesArray[previousMovesArray.Length - 1];
+
+        ChessPosition from = GameObject.Find(lastMove.Substring(2)).GetComponent<ChessPosition>();
+        ChessPosition to = GameObject.Find(lastMove.Substring(0, 2)).GetComponent<ChessPosition>();
+
+        from.UndoPieceTaken();
+
+        GameObject moving = from.overlappingPieces[0].gameObject;
+
+        moving.transform.position = to.gameObject.transform.position;
+        moving.transform.Translate(.10F, 0, 0, Space.World); // Offset hack
+        
+        previousMoves.RemoveAt(previousMoves.Count - 1);
+    }
+
     private void CheckState()
     {
 
